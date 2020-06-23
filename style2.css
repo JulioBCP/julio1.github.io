@@ -1,0 +1,33 @@
+* {
+    text-align: right;
+}
+body {
+    background-image: url(header.jpg);
+    background-size: cover;
+}
+p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgba( 255, 176, 170, 0.5);
+    cursor: pointer;
+}
+
+p {
+    color: green;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 85%;
+    font-family: "times new roman", Georgia;
+}
+image {
+    float: left;
+}
+footer {
+    clear: both; /*needs to be used to not let the float from image been wrapped around.*/
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
